@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <title>Leaflet.js Custom Markers with SBJJ Icons</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="leaflet.css" />
+  </head>
+  <body>
+    <div id="map" style="width: 100%; height:450px"></div>
+    <script src="leaflet.js"></script>
+	<script>
+		var map = L.map('map').setView([36.9667, -76.3667], 10);
+
+		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+		}).addTo(map);
+
+		var LeafIcon = L.Icon.extend({
+			options: {
+			// shadows are pretty. figure out how to make one nicely for these icons TODO
+				// shadowUrl: 'http://leafletjs.com/docs/images/leaf-shadow.png',
+				iconSize:     [32, 32]
+				// shadowSize:   [50, 64],
+				// iconAnchor:   [22, 94],
+				// shadowAnchor: [4, 62],
+				// popupAnchor:  [-3, -76]
+			}
+		});
+
+		var lighthouseIcon = new LeafIcon({iconUrl: 'transport_lighthouse.glow.DA0092.32.png'}),
+			shipWreckIcon = new LeafIcon({iconUrl: 'tourist_wreck.n.39AC39.32.png'}),
+			airportIcon = new LeafIcon({iconUrl: 'transport_airport2.glow.DA0092.32.png'}),
+			zooIcon = new LeafIcon({iconUrl: 'tourist_zoo.glow.DA0092.32.png'});
+
+
+		L.marker([37.0053, -76.1424], {icon: lighthouseIcon}).bindPopup("Thimble Shoals Lighthouse").addTo(map);
+		L.marker([36.8947, -76.2011], {icon: airportIcon}).bindPopup("Norfolk Airport").addTo(map);
+		L.marker([36.8786, -76.2774], {icon: zooIcon}).bindPopup("Norfolk Zoo").addTo(map);
+		L.marker([37.039, -76.191], {icon: shipWreckIcon}).bindPopup("USS Manta Shipwreck").addTo(map);
+		L.marker([37.0732, -76.5431], {icon: shipWreckIcon}).bindPopup("CSS Florida Shipwreck").addTo(map);
+	</script>
+  </body>
+</html>
