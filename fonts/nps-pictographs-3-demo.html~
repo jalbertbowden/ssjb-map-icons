@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <title>NPSPICT3 Regular Specimen</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;" />
+    <link rel="stylesheet" href="style-3/specimen_stylesheet.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="style-3/font-face-npspict3regular.css" type="text/css" charset="utf-8" />
+<style>
+.iconset{}
+.icon-title{display:block; font-size:12px}
+.icon-nps{position:relative; height:48px; width:48px; display:block; font-size:48px; font-family:"npspict3regular"; float:left; margin:5px 0 0 5px}
+.icon-nps:before,.icon-nps::before{position:absolute; height:48px; width:48px; top:0; left:0; z-index:10}
+.icon-nps-A:before,.icon-nps-A::before{content:"A"}
+.icon-nps-B:before,.icon-nps-B::before{content:"B"}
+.icon-nps-C:before,.icon-nps-C::before{content:"C"}
+.icon-nps-D:before,.icon-nps-D::before{content:"D"}
+.icon-nps-E:before,.icon-nps-E::before{content:"E"}
+.icon-nps-F:before,.icon-nps-F::before{content:"F"}
+.icon-nps-G:before,.icon-nps-G::before{content:"G"}
+.icon-nps-H:before,.icon-nps-H::before{content:"H"}
+.icon-nps-I:before,.icon-nps-I::before{content:"I"}
+.icon-nps-J:before,.icon-nps-J::before{content:"J"}
+.icon-nps-K:before,.icon-nps-K::before{content:"K"}
+.icon-nps-ice-fishing:before,.icon-nps-ice-fishing::before{content:"K"}
+
+.icon-nps-L:before,.icon-nps-L::before{content:"L"}
+.icon-nps-M:before,.icon-nps-M::before{content:"M"}
+.icon-nps-N:before,.icon-nps-N::before{content:"N"}
+.icon-nps-O:before,.icon-nps-O::before{content:"O"}
+.icon-nps-P:before,.icon-nps-P::before{content:"P"}
+.icon-nps-Q:before,.icon-nps-Q::before{content:"Q"}
+.icon-nps-R:before,.icon-nps-R::before{content:"R"}
+.icon-nps-S:before,.icon-nps-S::before{content:"S"}
+.icon-nps-T:before,.icon-nps-T::before{content:"T"}
+.icon-nps-U:before,.icon-nps-U::before{content:"U"}
+.icon-nps-V:before,.icon-nps-V::before{content:"V"}
+.icon-nps-W:before,.icon-nps-W::before{content:"W"}
+.icon-nps-X:before,.icon-nps-X::before{content:"X"}
+.icon-nps-Y:before,.icon-nps-Y::before{content:"Y"}
+.icon-nps-Z:before,.icon-nps-Z::before{content:"Z"}
+
+.icon-nps-a:before,.icon-nps-a::before{content:"a"}
+.icon-nps-b:before,.icon-nps-b::before{content:"b"}
+.icon-nps-c:before,.icon-nps-c::before{content:"c"}
+.icon-nps-d:before,.icon-nps-d::before{content:"d"}
+.icon-nps-e:before,.icon-nps-e::before{content:"e"}
+
+.icon-nps-f:before,.icon-nps-f::before{content:"f"}
+.icon-nps-g:before,.icon-nps-g::before{content:"g"}
+.icon-nps-h:before,.icon-nps-h::before{content:"h"}
+.icon-nps-i:before,.icon-nps-i::before{content:"i"}
+.icon-nps-j:before,.icon-nps-j::before{content:"j"}
+.icon-nps-k:before,.icon-nps-k::before{content:"k"}
+.icon-nps-l:before,.icon-nps-l::before{content:"l"}
+.icon-nps-m:before,.icon-nps-m::before{content:"m"}
+.icon-nps-n:before,.icon-nps-n::before{content:"n"}
+.icon-nps-o:before,.icon-nps-o::before{content:"o"}
+.icon-nps-p:before,.icon-nps-p::before{content:"p"}
+.icon-nps-q:before,.icon-nps-q::before{content:"q"}
+.icon-nps-r:before,.icon-nps-r::before{content:"r"}
+.icon-nps-s:before,.icon-nps-s::before{content:"s"}
+.icon-nps-t:before,.icon-nps-t::before{content:"t"}
+.icon-nps-u:before,.icon-nps-u::before{content:"u"}
+.icon-nps-v:before,.icon-nps-v::before{content:"v"}
+.icon-nps-w:before,.icon-nps-w::before{content:"w"}
+.icon-nps-x:before,.icon-nps-x::before{content:"x"}
+.icon-nps-y:before,.icon-nps-y::before{content:"y"}
+.icon-nps-z:before,.icon-nps-z::before{content:"z"}
+.icon-nps-1:before,.icon-nps-1::before{content:"1"}
+.icon-nps-2:before,.icon-nps-2::before{content:"2"}
+.icon-nps-3:before,.icon-nps-3::before{content:"3"}
+.icon-nps-4:before,.icon-nps-4::before{content:"4"}
+.icon-nps-5:before,.icon-nps-5::before{content:"5"}
+.icon-nps-6:before,.icon-nps-6::before{content:"6"}
+.icon-nps-7:before,.icon-nps-7::before{content:"7"}
+.icon-nps-8:before,.icon-nps-8::before{content:"8"}
+.icon-nps-9:before,.icon-nps-9::before{content:"9"}
+.icon-nps-0:before,.icon-nps-0::before{content:"0"}
+
+.icon-nps-period:before,.icon-nps-period::before{content:"."}
+.icon-nps-amp:before,.icon-nps-amp::before{content:"&"}
+.icon-nps-comma:before,.icon-nps-comma::before{content:","}
+.icon-nps-question:before,.icon-nps-question::before{content:"?"}
+.icon-nps-exclamation:before,.icon-nps-exclamation::before{content:"!"}
+.icon-nps-at:before,.icon-nps-at::before{content:"@"}
+.icon-nps-brace-right:before,.icon-nps-brace-right::before{content:"("}
+.icon-nps-brace-left:before,.icon-nps-brace-left::before{content:")"}
+.icon-nps-dollar:before,.icon-nps-dollar::before{content:"$"}
+.icon-nps-percent:before,.icon-nps-percent::before{content:"%"}
+.icon-nps-asterisk:before,.icon-nps-asterisk::before{content:"*"}
+.icon-nps-plus:before,.icon-nps-plus::before{content:"+"}
+.icon-nps-equals:before,.icon-nps-equals::before{content:"="}
+.icon-nps-colon:before,.icon-nps-colon::before{content:":"}
+
+.icon-nps-ampitheater:before,.icon-nps-ampitheater::before{content:"\""}
+.icon-nps-all-terrain-trail:before,.icon-nps-all-terrain-trail::before{content:"#"}
+.icon-nps-archery:before,.icon-nps-archery::before{content:"$"}
+.icon-nps-automobiles:before,.icon-nps-automobiles::before{content:"%"}
+.icon-nps-baseball:before,.icon-nps-baseball::before{content:"&"}
+.icon-nps-bear-viewing:before,.icon-nps-bear-viewing::before{content:"'"}
+.icon-nps-boat-launch:before,.icon-nps-boat-launch::before{content:"("}
+.icon-nps-boat-tour:before,.icon-nps-boat-tour::before{content:")"}
+.icon-nps-bicycle-trail:before,.icon-nps-bicycle-trail::before{content:"*"}
+.icon-nps-bus-stop:before,.icon-nps-bus-stop::before,.icon-nps-shuttle-stop:before,.icon-nps-shuttle-stop::before{content:"+"}
+.icon-nps-campfire:before,.icon-nps-campfire::before{content:","}
+.icon-nps-campground:before,.icon-nps-campground::before{content:"_"}
+.icon-nps-canoe-access:before,.icon-nps-canoe-access::before{content:"."}
+.icon-nps-cans:before,.icon-nps-cans::before,.icon-nps-bottles:before,.icon-nps-bottles::before{content:"/"}
+.icon-nps-climbing:before,.icon-nps-climbing::before{content:"1"}
+.icon-nps-cross-country-ski-trail:before,.icon-nps-cross-country-ski-trail::before{content:"2"}
+.icon-nps-dam:before,.icon-nps-dam::before{content:"3"}
+.icon-nps-deer-viewing:before,.icon-nps-deer-viewing::before{content:"4"}
+.icon-nps-diving:before,.icon-nps-diving::before{content:"5"}
+.icon-nps-downhill-skiing:before,.icon-nps-downhill-skiing::before{content:"6"}
+.icon-nps-drinking-water:before,.icon-nps-drinking-water::before{content:"7"}
+.icon-nps-driving-tour:before,.icon-nps-driving-tour::before{content:"8"}
+.icon-nps-exercise:before,.icon-nps-exercise::before,.icon-nps-fitness:before,.icon-nps-fitness::before{content:"9"}
+.icon-nps-chair-lift:before,.icon-nps-chair-lift::before,.icon-nps-ski-lift:before,.icon-nps-ski-lift::before{content:"0"}
+.icon-nps-falling-rocks:before,.icon-nps-falling-rocks::before{content:":"}
+.icon-nps-fire-extinguisher:before,.icon-nps-fire-extinguisher::before{content:";"}
+.icon-nps-firewood-cutting:before,.icon-nps-firewood-cutting::before{content:"<"}
+.icon-nps-first-aid:before,.icon-nps-first-aid::before{content:"="}
+.icon-nps-fishing:before,.icon-nps-fishing::before{content:">"}
+.icon-nps-fish-cleaning:before,.icon-nps-fish-cleaning::before{content:"?"}
+.icon-nps-fish-hatchery:before,.icon-nps-fish-hatchery::before{content:"?"}
+
+.icon-nps-fish-ladder:before,.icon-nps-fish-ladder::before{content:"A"}
+.icon-nps-fishing-pier:before,.icon-nps-fishing-pier::before{content:"B"}
+.icon-nps-food-service:before,.icon-nps-food-service::before{content:"C"}
+.icon-nps-four-wheel-drive-road:before,.icon-nps-four-wheel-drive-road::before{content:"D"}
+.icon-nps-gas-station:before,.icon-nps-gas-station::before{content:"E"}
+.icon-nps-golfing:before,.icon-nps-golfing::before{content:"F"}
+.icon-nps-hang-gliding:before,.icon-nps-hang-gliding::before{content:"G"}
+.icon-nps-hand-launch:before,.icon-nps-hand-launch::before,.icon-nps-small-boat-launch:before,.icon-nps-small-boat-launch::before{content:"H"}
+.icon-nps-horseback-riding:before,.icon-nps-horseback-riding::before{content:"I"}
+.icon-nps-hospital:before,.icon-nps-hospital::before{content:"J"}
+.icon-nps-ice-fishing:before,.icon-nps-ice-fishing::before{content:"K"}
+.icon-nps-ice-skating:before,.icon-nps-ice-skating::before{content:"L"}
+.icon-nps-information:before,.icon-nps-information::before{content:"M"}
+.icon-nps-in-line-skating:before,.icon-nps-in-line-skating::before{content:"N"}
+.icon-nps-kayaking:before,.icon-nps-kayaking::before{content:"O"}
+.icon-nps-kennel:before,.icon-nps-kennel::before{content:"P"}
+.icon-nps-laundromat:before,.icon-nps-laundromat::before{content:"Q"}
+.icon-nps-library:before,.icon-nps-library::before{content:"R"}
+.icon-nps-lifejackets:before,.icon-nps-lifejackets::before{content:"S"}
+.icon-nps-lighthouse:before,.icon-nps-lighthouse::before{content:"T"}
+.icon-nps-litter-receptacle:before,.icon-nps-litter-receptacle::before{content:"U"}
+.icon-nps-lockers:before,.icon-nps-lockers::before,.icon-nps-storage:before,.icon-nps-storage::before{content:"V"}
+.icon-nps-lodging:before,.icon-nps-lodging::before{content:"W"}
+.icon-nps-lookout-tower:before,.icon-nps-lookout-tower::before{content:"X"}
+.icon-nps-marina:before,.icon-nps-marina::before{content:"Y"}
+.icon-nps-mechanic:before,.icon-nps-mechanic::before{content:"Z"}
+.icon-nps-mens-room:before,.icon-nps-mens-room::before{content:"["}
+.icon-nps-motor-bike-trail:before,.icon-nps-motor-bike-trail::before{content:"\"}
+.icon-nps-motorboating:before,.icon-nps-motorboating::before{content:"]"}
+.icon-nps-parking:before,.icon-nps-parking::before{content:"^"}
+.icon-nps-pedestrian-crossing:before,.icon-nps-pedestrian-crossing::before{content:"_"}
+.icon-nps-pets-on-leash:before,.icon-nps-pets-on-leash::before{content:"`"}
+
+.icon-nps-a:before,.icon-nps-a::before{content:"a"}
+.icon-nps-b:before,.icon-nps-b::before{content:"b"}
+.icon-nps-c:before,.icon-nps-c::before{content:"c"}
+.icon-nps-d:before,.icon-nps-d::before{content:"d"}
+.icon-nps-e:before,.icon-nps-e::before{content:"e"}
+
+.icon-nps-f:before,.icon-nps-f::before{content:"f"}
+.icon-nps-g:before,.icon-nps-g::before{content:"g"}
+.icon-nps-h:before,.icon-nps-h::before{content:"h"}
+.icon-nps-i:before,.icon-nps-i::before{content:"i"}
+.icon-nps-j:before,.icon-nps-j::before{content:"j"}
+.icon-nps-k:before,.icon-nps-k::before{content:"k"}
+.icon-nps-l:before,.icon-nps-l::before{content:"l"}
+.icon-nps-m:before,.icon-nps-m::before{content:"m"}
+.icon-nps-n:before,.icon-nps-n::before{content:"n"}
+.icon-nps-o:before,.icon-nps-o::before{content:"o"}
+.icon-nps-p:before,.icon-nps-p::before{content:"p"}
+.icon-nps-q:before,.icon-nps-q::before{content:"q"}
+.icon-nps-r:before,.icon-nps-r::before{content:"r"}
+.icon-nps-s:before,.icon-nps-s::before{content:"s"}
+.icon-nps-t:before,.icon-nps-t::before{content:"t"}
+.icon-nps-u:before,.icon-nps-u::before{content:"u"}
+.icon-nps-v:before,.icon-nps-v::before{content:"v"}
+.icon-nps-w:before,.icon-nps-w::before{content:"w"}
+.icon-nps-x:before,.icon-nps-x::before{content:"x"}
+.icon-nps-y:before,.icon-nps-y::before{content:"y"}
+.icon-nps-z:before,.icon-nps-z::before{content:"z"}
+
+#main_content{font-family:"npspict3regular"}
+.glyph_range.offset{background-color:#000; color:#fff}
+.clearleft{clear:left; float:none}
+</style>
+  </head>
+  <body>
+    <div id="container">
+      <header id="header"><h1>NPSPICT3 Regular Specimen</h1></header>
+      <div class="iconset">
+        <ul>
+          <li><a class="icon-nps icon-nps-A"></a></li>
+          <li><a class="icon-nps icon-nps-B"></a></li>
+          <li><a class="icon-nps icon-nps-C"></a></li>
+          <li><a class="icon-nps icon-nps-D"></a></li>
+          <li><a class="icon-nps icon-nps-E"></a></li>
+          <li><a class="icon-nps icon-nps-F"></a></li>
+          <li><a class="icon-nps icon-nps-G"></a></li>
+          <li><a class="icon-nps icon-nps-H"></a></li>
+          <li><a class="icon-nps icon-nps-I"></a></li>
+          <li><a class="icon-nps icon-nps-J"></a></li>
+          <li><a class="icon-nps icon-nps-K"></a></li>
+          <li><a class="icon-nps icon-nps-L"></a></li>
+          <li><a class="icon-nps icon-nps-M"></a></li>
+          <li><a class="icon-nps icon-nps-N"></a></li>
+          <li><a class="icon-nps icon-nps-O"></a></li>
+          <li><a class="icon-nps icon-nps-P"></a></li>
+          <li><a class="icon-nps icon-nps-Q"></a></li>
+          <li><a class="icon-nps icon-nps-R"></a></li>
+          <li><a class="icon-nps icon-nps-S"></a></li>
+          <li><a class="icon-nps icon-nps-T"></a></li>
+          <li><a class="icon-nps icon-nps-U"></a></li>
+          <li><a class="icon-nps icon-nps-V"></a></li>
+          <li><a class="icon-nps icon-nps-W"></a></li>
+          <li><a class="icon-nps icon-nps-X"></a></li>
+          <li><a class="icon-nps icon-nps-Y"></a></li>
+          <li><a class="icon-nps icon-nps-Z"></a></li>
+        </ul>
+        <hr class="clearleft" />
+        <ul>
+          <li><a class="icon-nps icon-nps-a"></a></li>
+          <li><a class="icon-nps icon-nps-b"></a></li>
+          <li><a class="icon-nps icon-nps-c"></a></li>
+          <li><a class="icon-nps icon-nps-d"></a></li>
+          <li><a class="icon-nps icon-nps-e"></a></li>
+          <li><a class="icon-nps icon-nps-f"></a></li>
+          <li><a class="icon-nps icon-nps-g"></a></li>
+          <li><a class="icon-nps icon-nps-h"></a></li>
+          <li><a class="icon-nps icon-nps-i"></a></li>
+          <li><a class="icon-nps icon-nps-j"></a></li>
+          <li><a class="icon-nps icon-nps-k"></a></li>
+          <li><a class="icon-nps icon-nps-l"></a></li>
+          <li><a class="icon-nps icon-nps-m"></a></li>
+          <li><a class="icon-nps icon-nps-n"></a></li>
+          <li><a class="icon-nps icon-nps-o"></a></li>
+          <li><a class="icon-nps icon-nps-p"></a></li>
+          <li><a class="icon-nps icon-nps-q"></a></li>
+          <li><a class="icon-nps icon-nps-r"></a></li>
+          <li><a class="icon-nps icon-nps-s"></a></li>
+          <li><a class="icon-nps icon-nps-t"></a></li>
+          <li><a class="icon-nps icon-nps-u"></a></li>
+          <li><a class="icon-nps icon-nps-v"></a></li>
+          <li><a class="icon-nps icon-nps-w"></a></li>
+          <li><a class="icon-nps icon-nps-x"></a></li>
+          <li><a class="icon-nps icon-nps-y"></a></li>
+          <li><a class="icon-nps icon-nps-z"></a></li>
+        </ul>
+        <hr class="clearleft" />
+        <ul>
+          <li><a class="icon-nps icon-nps-1"></a></li>
+          <li><a class="icon-nps icon-nps-2"></a></li>
+          <li><a class="icon-nps icon-nps-3"></a></li>
+          <li><a class="icon-nps icon-nps-4"></a></li>
+          <li><a class="icon-nps icon-nps-5"></a></li>
+          <li><a class="icon-nps icon-nps-6"></a></li>
+          <li><a class="icon-nps icon-nps-7"></a></li>
+          <li><a class="icon-nps icon-nps-8"></a></li>
+          <li><a class="icon-nps icon-nps-9"></a></li>
+          <li><a class="icon-nps icon-nps-0"></a></li>
+        </ul>
+        <hr class="clearleft" />
+        <ul>
+          <li><a class="icon-nps icon-nps-period"></a></li>
+          <li><a class="icon-nps icon-nps-amp"></a></li>
+          <li><a class="icon-nps icon-nps-comma"></a></li>
+          <li><a class="icon-nps icon-nps-question"></a></li>
+          <li><a class="icon-nps icon-nps-exclamation"></a></li>
+          <li><a class="icon-nps icon-nps-at"></a></li>
+          <li><a class="icon-nps icon-nps-brace-right"></a></li>
+          <li><a class="icon-nps icon-nps-brace-left"></a></li>
+          <li><a class="icon-nps icon-nps-number"></a></li>
+          <li><a class="icon-nps icon-nps-dollar"></a></li>
+          <li><a class="icon-nps icon-nps-percent"></a></li>
+          <li><a class="icon-nps icon-nps-asterisk"></a></li>
+          <li><a class="icon-nps icon-nps-plus"></a></li>
+          <li><a class="icon-nps icon-nps-equals"></a></li>
+          <li><a class="icon-nps icon-nps-colon"></a></li>
+        </ul>
+        <hr class="clearleft" />
+        <ul>
+          <li><a class="icon-nps icon-nps-ice-fishing"></a>
+            <b class="icon-title">Ice Fishing</b></li>
+          <li><a class="icon-nps icon-nps-ampitheater"></a>
+            <b class="icon-title">Ampitheater</b></li>
+        </ul>
+        <p class="clearleft">Icon HTML and CSS:</p>
+<pre><code>
+/** css **/
+.icon-nps{
+	position:relative; 
+	height:48px; 
+	width:48px; 
+	display:block; 
+	font-size:48px; 
+	font-family:"npspict3regular"; 
+	float:left; 
+	margin:5px 0 0 5px}
+.icon-nps:before,.icon-nps::before{
+	position:absolute; 
+	height:48px; 
+	width:48px; 
+	top:0; 
+	left:0; 
+	z-index:10}
+.icon-nps-a:before,.icon-nps-a::before{
+	content:"A"}
+.icon-nps-b:before,.icon-nps-b::before{
+	content:"B"}
+/** ...etc **/
+
+/** html **/
+&#60;div class="iconset"&#62;
+  &#60;ul&#62;
+    &#60;li&#62;&#60;a class="icon-nps icon-nps-a"&#62;&#60;/a&#62;&#60;/li&#62;
+    &#60;li&#62;&#60;a class="icon-nps icon-nps-b"&#62;&#60;/a&#62;&#60;/li&#62;
+/** ...etc **/
+</code></pre>
+      </div>
+      <div id="main_content">
+        <div id="specimen">
+          <div class="section">
+            <div class="glyph_range">A&#x200B;B&#x200b;C&#x200b;D&#x200b;E&#x200b;F&#x200b;G&#x200b;H&#x200b;I&#x200b;J&#x200b;K&#x200b;L&#x200b;M&#x200b;N&#x200b;O&#x200b;P&#x200b;Q&#x200b;R&#x200b;S&#x200b;T&#x200b;U&#x200b;V&#x200b;W&#x200b;X&#x200b;Y&#x200b;Z&#x200b;a&#x200b;b&#x200b;c&#x200b;d&#x200b;e&#x200b;f&#x200b;g&#x200b;h&#x200b;i&#x200b;j&#x200b;k&#x200b;l&#x200b;m&#x200b;n&#x200b;o&#x200b;p&#x200b;q&#x200b;r&#x200b;s&#x200b;t&#x200b;u&#x200b;v&#x200b;w&#x200b;x&#x200b;y&#x200b;z&#x200b;1&#x200b;2&#x200b;3&#x200b;4&#x200b;5&#x200b;6&#x200b;7&#x200b;8&#x200b;9&#x200b;0&#x200b;&amp;&#x200b;.&#x200b;,&#x200b;?&#x200b;!&#x200b;&#64;&#x200b;(&#x200b;)&#x200b;#&#x200b;$&#x200b;%&#x200b;*&#x200b;+&#x200b;=&#x200b;:&#x200b;;</div>
+          </div>
+          <div class="section">
+            <div class="glyph_range offset">A&#x200B;B&#x200b;C&#x200b;D&#x200b;E&#x200b;F&#x200b;G&#x200b;H&#x200b;I&#x200b;J&#x200b;K&#x200b;L&#x200b;M&#x200b;N&#x200b;O&#x200b;P&#x200b;Q&#x200b;R&#x200b;S&#x200b;T&#x200b;U&#x200b;V&#x200b;W&#x200b;X&#x200b;Y&#x200b;Z&#x200b;a&#x200b;b&#x200b;c&#x200b;d&#x200b;e&#x200b;f&#x200b;g&#x200b;h&#x200b;i&#x200b;j&#x200b;k&#x200b;l&#x200b;m&#x200b;n&#x200b;o&#x200b;p&#x200b;q&#x200b;r&#x200b;s&#x200b;t&#x200b;u&#x200b;v&#x200b;w&#x200b;x&#x200b;y&#x200b;z&#x200b;1&#x200b;2&#x200b;3&#x200b;4&#x200b;5&#x200b;6&#x200b;7&#x200b;8&#x200b;9&#x200b;0&#x200b;&amp;&#x200b;.&#x200b;,&#x200b;?&#x200b;!&#x200b;&#64;&#x200b;(&#x200b;)&#x200b;#&#x200b;$&#x200b;%&#x200b;*&#x200b;+&#x200b;=&#x200b;:&#x200b;;</div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer"><p><a href="http://www.fontsquirrel.com/tools/webfont-generator"><code>@font&#45;face</code> Web Font conversion via <strong>Font Squirrel</strong></a>.</p></footer>
+    </div>
+  </body>
+</html>
